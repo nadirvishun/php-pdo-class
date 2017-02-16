@@ -1,7 +1,7 @@
 <?php
 //测试
 header('content-type:text/html;charset=utf-8');
-require_once('pdoMysql.class.php');
+require_once('../src/pdoMysql.class.php');
 $config = require_once('config.php');
 $db = PdoMysql::getInstance($config['db']);
 
