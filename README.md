@@ -54,7 +54,7 @@
   $res = $db->find('student', array("id>:id", array(':id' => 2)), 'name');
   ```
   
-  - 其它常用方法
+ - 其它常用方法
   
   ```
   $db->bindValue(':id', $id);//绑定单个参数，可多次调用
