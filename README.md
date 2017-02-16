@@ -1,10 +1,10 @@
 # php-pdo-class
 
- ### 说明
+### 说明
  
  最初是按照幕客网中[《PDO—数据库抽象层》](http://www.imooc.com/learn/164)中课程所编写的pdo封装，在此基础上又做了改进，但仍然是简单的封装。
 
- ### 相关方法
+### 相关方法
  
  - 获取对象
  
@@ -66,4 +66,7 @@
   $db->getLastSql();//获取最后查询的sql语句
   $db->getLastInsertId();//获取insert插入的自增ID
   $db->getAffectNum();//获取受影响的条数
-  ``
+  ```
+  
+### todo
+封装成链式操作，会更灵活好用些
